@@ -1,0 +1,356 @@
+/* CSS Document */
+body {
+  width: 100%;
+  max-height: 1200px;
+  font: 10px sans-serif;
+  overflow: auto;
+}
+
+.container{position:absolute;top:320px;left:130px;}
+#timelineBarChart { 
+		border-radius: 10px;
+		border: 3px solid #FABF0F;
+		position:absolute;
+		top:50px;
+		left:150px;
+		width:780px;
+		height: 240px;
+		/*
+		background-color: yellow;
+		*/
+	}
+	
+#Nav {
+position: absolute;
+width: 1500px;
+height: 100px;
+top: 295px;
+left: 450px;
+/*
+background-color: orange;
+*/
+}
+
+#InfoCharts {
+
+}
+
+#BrandCharts, #FuelTypeCharts {
+position: absolute;
+width: 1400px;
+height: 660px;
+top: 320px;
+left: 0px;
+padding-right:0;
+padding-top:25px;
+/*
+background-color: blue;
+*/
+}
+
+#BubbleChart1 {
+float: left;
+width: 600px;
+height: 600px;
+/*
+background-color: orange;
+*/
+ }
+
+#LineChart1{
+float:left;
+width: 600px;
+height: 600px;
+/*
+background-color: blue; 
+*/	
+}
+
+#right {
+float: left;
+width: 180px;
+height: 600px;
+/*
+background-color: green;
+*/
+}
+
+#Legend1{
+position:absolute;
+left:1140px;
+top:90px;
+width: 120px;
+height: 500px;
+}
+
+
+#ResetButton {
+width: 70px;
+height: 30px;
+font-size: 15px;
+}
+
+#timelineBarChart .bar:hover{
+  fill: #8585AD;
+}
+
+/*
+#timelineBarChart .bar:visited {
+ fill: #4169E1;
+}
+*/
+
+.axis {
+		font-family: sans-serif;
+}
+					
+circle {
+  fill: #8AB8E6;
+  cursor: pointer;
+}
+
+.node:hover circle {
+  fill: #8585AD;
+}
+
+/*
+.node:visited circle {
+  fill:steelblue;
+}
+*/
+
+path {
+  stroke: #000;
+  stroke-width: 2;
+  fill: none;
+}
+
+.xAxis text {
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+
+.xAxis {
+  stroke: black;
+  fill: none;
+}
+
+.xAxis.line.tick {
+  stroke: black;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+.yAxis text {
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+.yAxis {
+  stroke: black;
+  fill: none;
+}
+
+.yAxis.line.tick {
+  stroke: black;
+}
+
+.grid .tick {
+  stroke: lightgrey;
+  opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+
+.grid path {
+  stroke-width: 0;
+}
+
+
+.dot {
+  stroke: #DCDCDC;
+  stroke-width: 2;
+ }
+ 
+div.tooltip {
+    background: black;
+    color: white;
+    padding: 5px;
+	position: absolute;
+	text-align: center;
+	width: 100px;
+	height: 80px;	
+	font: 14px sans-serif;	
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	pointer-events: none;
+	
+}
+
+.legend {
+       font: 10px Arial;
+}
+
+rect {
+   stroke-width: 2;
+}
+
+
+.d3-tip {
+  line-height: 2;
+  font-weight: bold;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+  -webkit-transition: opacity 0.3s; /* For Safari 3.1 to 6.0 */
+  transition: opacity 0.3s;   
+  width: 100px;
+  height: 50px;	
+  font: 16px sans-serif;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 15px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;}
+  
+ /*CSS style of t.x.c.*/ 
+#CCRatingCharts {
+	position:absolute;
+	left:20px;
+	top:400px;
+	width:950px;
+	height:500px;
+	margin:0 auto;
+}
+
+#part2 {  
+	float:left;
+	width:400px;
+	height: 450px;
+}
+
+#part2 rect:hover{fill:brown;}
+
+#CCRatingCharts .xAxis {
+    font-family: verdana;
+    font-size: 10px;
+    fill: black;
+}
+  
+.yAxisCC {
+    font-family: verdana;
+    font-size: 10px;
+    fill: white;
+}
+
+#part3 {
+	float:right;
+	width: 480px;
+	height: 450px;
+	overflow:hidden;
+	font-family:verdana;
+	font-weight:bold;
+}
+
+#CCRatingCharts .axis {
+		font-family: arial;
+		font-size:0.6em;
+		}
+				
+path{
+	fill:none;
+	stroke:black;
+	stroke-width:2px;
+	}
+			
+#part3.tick {
+		fill:none;
+		stroke:black;
+			}
+				
+#part3 circle{
+		stroke:black;
+		stroke-width:0.5px;
+			}
+#part3 circle:hover{cursor:pointer;}	
+			
+circle.below_1000{
+		fill:#BAE2E8;
+			}
+				
+circle._1001_1600{
+		fill:rgb(189,201,225);
+			}
+			
+circle._1601_2000{
+		fill:rgb(116,169,207);
+			}
+			
+circle._2001_3000{
+		fill:rgb(43,140,190);
+			}
+
+circle.above_3000{
+		fill:rgb(4,90,141);
+			}			
+			
+#line1{
+		stroke:#BAE2E8;
+		stroke-width:3px;
+			}
+#line2{
+		stroke:rgb(189,201,225);
+		stroke-width:3px;
+			}
+#line3{
+		stroke:rgb(116,169,207);
+		stroke-width:3px;
+			}
+			
+#line4{
+		stroke:rgb(43,140,190);
+		stroke-width:3px;
+			}
+			
+#line5{
+		stroke:rgb(4,90,141);
+		stroke-width:3px;
+			}
+
+
+/*FOR TIP*/
+#CCRatingCharts div.tooltipCC {
+    background: black;
+    color: white;
+    padding: 5px;
+	position: absolute;
+	text-align: center;
+	line-height:20px;
+	width: 100px;
+	height: 60px;	
+	font: 16px sans-serif;	
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	pointer-events: none;
+}
+}

@@ -1,0 +1,328 @@
+html {
+	font-family: 'Trebuchet MS', sans-serif, Arial, Helvitica;
+}
+body {
+	background: url(../images/bg-body.png) repeat;
+	margin: 0;
+	padding-top: 19px;
+}
+#background {
+	background: url(../images/bg-body.png) repeat;
+	border-top: 1px solid #cc9f0f;
+}
+#page {
+	width: 960px;
+	margin: 0 auto;
+}
+@font-face {
+ font-family: 'CorbenBold';
+ src: url('fonts/corben-bold-webfont.eot');
+ src: local('?'), url('fonts/corben-bold-webfont.woff') format('woff'),  url('fonts/corben-bold-webfont.ttf') format('truetype'),  url('fonts/corben-bold-webfont.svg') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+img {
+	border: 0;
+}
+#connect .facebook, #connect .twitter, #connect .vimeo {
+	background: url(../images/icons.gif) no-repeat;
+}
+/*------------------------------ HEADER ------------------------------*/
+#header {
+	background: url(../images/bg-header.jpg) no-repeat center top;
+	margin-bottom: 20px;
+}
+#connect {
+	float: left;
+	display: inline-block;
+	height: 30px;
+	width: 300px;
+	margin: 15px 0 15px 10px;
+}
+#connect a {
+	display: inline-block;
+	height: 30px;
+	margin: 0 10px;
+	padding: 0;
+}
+
+#infos {
+	float: right;
+	color: #635320;
+	display: inline-block;
+	height: 30px;
+	width: 200px;
+	margin: 15px 0;
+}
+#infos a {
+	color: #635320;
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 30px;
+	margin: 0 5px;
+	text-decoration: none;
+}
+/** Logo **/
+#logo {
+	clear: both;
+	display: block;
+	
+	width: 950px;
+	margin: 0 auto;
+}
+/** Navigation **/
+#navigation {
+	height: 40px;
+	list-style-type: none;
+	margin: 0;
+	padding: 8px 20px 12px 0;
+}
+
+
+#navigation li {
+	float: left;
+	font-family: 'CorbenBold';
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 40px;
+	width: 220px;
+	text-align: center;
+}
+#navigation a {
+	color: #9d7912;
+	text-decoration: none;
+}
+#navigation a:hover, #navigation li.selected a {
+	color: #f9f9f5;
+	text-shadow: 1px 1px 0 #a8840b;
+}
+/*------------------------------ CONTENTS ------------------------------*/
+#contents {
+	margin: 0 0 40px;
+	padding: 0 5px;
+}
+#main {
+	background: url(../images/border-dashed.jpg) repeat-x left bottom;
+	margin: 0 0 30px;
+	padding: 0 0 30px;
+}
+#main p {
+	color: #755a0b;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 0;
+	padding: 0 0 20px;
+}
+#main p a {
+	color: #755a0b;
+}
+#main address {
+	color: #9d7912;
+	font-style: normal;
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+#main address span {
+	color: #9d7912;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 18px;
+	line-height: 20px;
+	margin: 20px 0;
+	width: 350px;
+}
+#adbox {
+	background: #ffffff url(../images/bottom-shadow-headliner.jpg) no-repeat center bottom;
+	height: 371px;
+	width: 935px;
+	margin: 0 auto;
+	padding: 7px 7px 22px;
+	position: relative;
+}
+#adbox img {
+	height: 371px;
+	width: 935px;
+	margin: auto;
+}
+#featured {
+	background: url(../images/border-dashed.jpg) repeat-x left bottom;
+	padding: 0 0 10px;
+	position: relative;
+}
+#featured ul {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+}
+#featured ul li {
+	float: left;
+	background: #ffffff url(../images/bottom-shadow-img.jpg) no-repeat center bottom;
+	height: 230px;
+	width: 204px;
+	margin-right: 28px;
+	padding: 6px 6px 15px;
+}
+#featured ul li.last {
+	margin-right: 0;
+}
+#featured ul li img {
+	border: 1px solid #e4e0d1;
+}
+#featured a.button {
+	background: url(../images/bg-button.jpg) no-repeat;
+	color: #8e7217;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 18px;
+	height: 10px;
+	line-height: 30px;
+	width: 144px;
+	padding: 4px 0 6px;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	bottom: -20px;
+	left: 403px;
+}
+/*------------------------------ Blog Page ------------------------------*/
+#blogs {
+	background: url(../images/border-dashed.jpg) repeat-x left bottom;
+	padding: 0 0;
+	position: relative;
+}
+#blogs div {
+
+	display: inline-block;
+	margin: 0;
+	padding: 0 0 20px;
+}
+#blogs div.last {
+	background: none;
+	margin: 0;
+}
+#blogs span {
+	float: left;
+	display: block;
+	height: 213px;
+	width: 204px;
+	margin-bottom: 6px;
+	margin-right: 40px;
+	padding: 6px 6px 15px;
+}
+#blogs span img {
+	border: 1px solid #e4e0d1;
+}
+#blogs h3 {
+	background: url(../images/border-dashed.jpg) repeat-x left bottom;
+	line-height: 30px;
+	margin: 0 0 20px 258px;
+	padding: 0 0 10px;
+}
+#blogs p {
+	color: #755a0b;
+	max-height: 160px;
+	line-height: 20px;
+	margin: 0 0 20px 258px;
+	padding: 0 0 20px;
+	overflow: hidden;
+}
+#blogs p a {
+	color: #755a0b;
+}
+#blogs a.more {
+	color: #000000;
+	font-style: italic;
+	text-decoration: none;
+}
+#blogs div.buttons, #blogs div.blog-entry-buttons {
+	background: none;
+	display: inline-block;
+	width: 328px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	bottom: -20px;
+	left: 311px;
+}
+#blogs div.buttons a, #blogs div.blog-entry-buttons a {
+	float: left;
+	background: url(../images/bg-button.jpg) no-repeat;
+	color: #8e7217;
+	display: block;
+	font-family: 'CorbenBold';
+	font-size: 18px;
+
+	line-height: 30px;
+	width: 144px;
+	margin-right: 20px;
+	padding: 4px 0 6px;
+	text-align: center;
+	text-decoration: none;
+}
+#blogs div.blog-entry-buttons {
+	width: 690px;
+	left: 258px;
+}
+#blogs div.blog-entry-buttons a.back {
+	float: right;
+	font-size: 16px;
+	margin-right: 0;
+}
+/*------------------------------ For IE6 ------------------------------*/
+#background {
+	_height: 1440px;
+}
+#featured a.button {
+	_top: 299px;
+}
+#blogs {
+	_height: 620px;
+}
+#blogs div.buttons, #blogs div.blog-entry-buttons {
+	_top: 620px;
+}
+
+
+/*----------------------------- FUEL TYPE ------------------------------*/
+#Table3 table th, #Table3 table td {
+	border: 1px solid #ccc;
+	padding: 4px;
+}
+#Table3 table td {
+	cursor: pointer;
+}
+#svgFuelType {
+	width: 800px;
+	height: 550px;
+}
+.fuelTypeChartTooltip {
+  background: black;
+  color: white;
+  padding: 5px;
+	text-align: center;
+	line-height: 24px;
+	width: 120px;
+	height: auto;	
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	pointer-events: none;
+}
+
+.grid .tick {
+    stroke: lightgrey;
+    stroke-opacity: 0.7;
+    shape-rendering: crispEdges;
+}
+.grid path {
+          stroke-width: 0;
+}
+
+
+.chart rect {
+	cursor: pointer;
+}
+
+
+
